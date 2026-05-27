@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog | K.AMO</title>
+    <link rel="stylesheet" href="styles/catalog.css">
+</head>
+<body>
+
+<div class="top-line">COMPLIMENTARY STANDARD SHIPPING</div>
+
+<section class="catalog-hero">
+    <header class="header">
+        <nav class="header__left">
+            <a href="catalog.html">SPRING26</a>
+            <a href="#">ARCHIVE</a>
+            <a href="#">GIFTS</a>
+            <a href="#">STORES</a>
+        </nav>
+
+        <a href="index.html" class="logo">K.AMO</a>
+
+        <nav class="header__right">
+            <a href="cart.html">CART</a>
+            <a href="#">SEARCH</a>
+            <a href="#">ABOUT</a>
+        </nav>
+    </header>
+
+    <h1>CATALOG</h1>
+</section>
+
+<main class="catalog">
+    <aside class="filters">
+        <h2>FILTERS</h2>
+
+        <details class="filter-group" open>
+            <summary>COLOR</summary>
+            <label><input type="checkbox" name="color" value="black"> black</label>
+            <label><input type="checkbox" name="color" value="white"> white</label>
+            <label><input type="checkbox" name="color" value="denim-blue"> denim blue</label>
+            <label><input type="checkbox" name="color" value="pink"> pink</label>
+        </details>
+
+        <details class="filter-group" open>
+            <summary>WHAT KIND</summary>
+            <label><input type="checkbox" name="kind" value="t-shirt"> t-shirt</label>
+            <label><input type="checkbox" name="kind" value="jeans"> jeans</label>
+            <label><input type="checkbox" name="kind" value="bag"> bag</label>
+            <label><input type="checkbox" name="kind" value="shirt"> shirt</label>
+            <label><input type="checkbox" name="kind" value="skirt"> skirt</label>
+            <label><input type="checkbox" name="kind" value="jacket"> jacket</label>
+        </details>
+
+        <details class="filter-group" open>
+            <summary>PRICE</summary>
+
+            <div class="price-filter">
+                <input type="range" min="300" max="10000" value="5200" id="priceRange">
+                <div class="price-values">
+                    <span>300₽</span>
+                    <span id="priceValue">5 200₽</span>
+                    <span>10 000₽</span>
+                </div>
+            </div>
+        </details>
+    </aside>
+
+    <section class="catalog-grid">
+        <article class="product-card" data-kind="jacket" data-color="white" data-price="1290">
+            <img src="images/catalog-1.jpg" alt="">
+            <div class="product-card__info">
+                <div class="product-card__top">
+                    <h3>JACKET</h3>
+                    <b>1 290₽</b>
+                </div>
+                <p>bomber jacket in nylon with leather trim. spread color</p>
+                <button class="open-product-modal">Add to cart</button>
+                <a href="#">More info</a>
+            </div>
+        </article>
+
+        <article class="product-card" data-kind="shirt" data-color="pink" data-price="2299">
+            <img src="images/catalog-2.jpg" alt="">
+            <div class="product-card__info">
+                <div class="product-card__top">
+                    <h3>BLOUSE</h3>
+                    <b>2 299₽</b>
+                </div>
+                <p>bomber jacket in nylon with leather trim. spread color</p>
+                <button class="open-product-modal">Add to cart</button>
+                <a href="#">More info</a>
+            </div>
+        </article>
+
+        <article class="product-card" data-kind="jacket" data-color="white" data-price="349">
+            <img src="images/catalog-3.jpg" alt="">
+            <div class="product-card__info">
+                <div class="product-card__top">
+                    <h3>JACKET</h3>
+                    <b>349₽</b>
+                </div>
+                <p>bomber jacket in nylon with leather trim. spread color</p>
+                <button class="open-product-modal">Add to cart</button>
+                <a href="#">More info</a>
+            </div>
+        </article>
+
+        <article class="product-card" data-kind="dress" data-color="white" data-price="5299">
+            <img src="images/catalog-4.jpg" alt="">
+            <div class="product-card__info">
+                <div class="product-card__top">
+                    <h3>DRESS</h3>
+                    <b>5 299₽</b>
+                </div>
+                <p>bomber jacket in nylon with leather trim. spread color</p>
+                <button>Add to cart</button>
+                <a href="#">More info</a>
+            </div>
+        </article>
+
+        <article class="product-card" data-kind="skirt" data-color="white" data-price="3799">
+            <img src="images/catalog-5.jpg" alt="">
+            <div class="product-card__info">
+                <div class="product-card__top">
+                    <h3>JACKET</h3>
+                    <b>3 799₽</b>
+                </div>
+                <p>bomber jacket in nylon with leather trim. spread color</p>
+                <button class="open-product-modal">Add to cart</button>
+                <a href="#">More info</a>
+            </div>
+        </article>
+
+        <article class="product-card" data-kind="t-shirt" data-color="pink" data-price="8999">
+            <img src="images/catalog-6.jpg" alt="">
+            <div class="product-card__info">
+                <div class="product-card__top">
+                    <h3>JACKET</h3>
+                    <b>8 999₽</b>
+                </div>
+                <p>bomber jacket in nylon with leather trim. spread color</p>
+                <button class="open-product-modal">Add to cart</button>
+                <a href="#">More info</a>
+            </div>
+        </article>
+
+        <article class="product-card" data-kind="skirt" data-color="pink" data-price="4599">
+            <img src="images/catalog-7.jpg" alt="">
+            <div class="product-card__info">
+                <div class="product-card__top">
+                    <h3>SKIRT</h3>
+                    <b>4 599₽</b>
+                </div>
+                <p>bomber jacket in nylon with leather trim. spread color</p>
+                <button class="open-product-modal">Add to cart</button>
+                <a href="#">More info</a>
+            </div>
+        </article>
+
+        <article class="product-card" data-kind="jeans" data-color="white" data-price="799">
+            <img src="images/catalog-8.jpg" alt="">
+            <div class="product-card__info">
+                <div class="product-card__top">
+                    <h3>JEANS</h3>
+                    <b>799₽</b>
+                </div>
+                <p>bomber jacket in nylon with leather trim. spread color</p>
+                <button class="open-product-modal">Add to cart</button>
+                <a href="#">More info</a>
+            </div>
+        </article>
+
+        <article class="product-card" data-kind="jacket" data-color="denim-blue" data-price="1299">
+            <img src="images/catalog-9.jpg" alt="">
+            <div class="product-card__info">
+                <div class="product-card__top">
+                    <h3>COAT</h3>
+                    <b>1 299₽</b>
+                </div>
+                <p>bomber jacket in nylon with leather trim. spread color</p>
+                <button class="open-product-modal">Add to cart</button>
+                <a href="#">More info</a>
+            </div>
+        </article>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer-info container">
+        <div>
+            <h2>УЗНАЙТЕ БОЛЬШЕ В БУТИКАХ</h2>
+            <p>
+                Ассортимент изделий тщательно отобран и находится
+                на наших бутиках. Приглашаем в ближайший к Вам бутик,
+                чтобы узнать больше.
+            </p>
+            <a href="#">НАЙТИ БУТИК</a>
+        </div>
+
+        <img src="images/white-shop.png" alt="">
+    </div>
+
+    <div class="footer-bottom">
+        <div>
+            <h3>Связь с нами</h3>
+            <p>
+                Сотрудники K.AMO ответят на Ваши вопросы с понедельника по пятницу, кроме нерабочих праздничных дней, с 10:00 до 18:00 по телефону 7 777 777 77 77
+            </p>
+        </div>
+
+        <div>
+            <h3>Найти бутик</h3>
+            <p>Укажите свое местоположение, чтобы найти ближайшие бутики K.AMO.</p>
+
+            <label class="search-field">
+                <input type="text" placeholder="Город или почтовый индекс">
+                <img src="images/loop.png" alt="">
+            </label>
+        </div>
+
+        <div>
+            <h3>Информационное письмо</h3>
+            <p>Подпишитесь, чтобы быть в курсе последних новостей K.AMO</p>
+            <a href="#" id="openModal">Подписаться</a>
+        </div>
+    </div>
+</footer>
+
+<section class="white-logo">
+    <a href="#" class="logo">K.AMO</a>
+</section>
+
+<div class="subscribe-modal" id="subscribeModal">
+    <div class="subscribe-modal__content">
+        <button class="subscribe-modal__close" id="closeModal">&times;</button>
+
+        <h2>
+            ПОДПИШИТЕСЬ, ЧТОБЫ БЫТЬ В КУРСЕ <br>
+            ПОСЛЕДНИХ НОВОСТЕЙ <span>K.AMO</span>
+        </h2>
+
+        <form class="subscribe-form">
+            <input type="text" placeholder="Ваше имя - обязательно">
+            <input type="email" placeholder="Email - обязательно">
+
+            <p>
+                Нажимая на эту кнопку, Вы соглашаетесь получать
+                по электронной почте маркетинговые материалы
+                о товарах или мероприятиях
+            </p>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</div>
+
+<div class="product-modal" id="productModal">
+    <div class="product-modal__content">
+        <button class="product-modal__close" id="closeProductModal">&times;</button>
+
+        <div class="product-modal__image">
+            <img src="" alt="" id="modalProductImage">
+        </div>
+
+        <div class="product-modal__info">
+            <h2 id="modalProductTitle">JACKET</h2>
+            <p id="modalProductDescription">
+                bomber jacket in nylon with leather trim. spread color
+            </p>
+
+            <div class="product-size">
+                <h3>SIZE</h3>
+
+                <div class="size-list">
+                    <button type="button">S</button>
+                    <button type="button">M</button>
+                    <button type="button" class="active">L</button>
+                    <button type="button">XL</button>
+                    <button type="button">2XL</button>
+                </div>
+            </div>
+
+            <div class="product-modal__price" id="modalProductPrice">1 290₽</div>
+
+            <button class="product-modal__cart">ADD TO CART</button>
+        </div>
+    </div>
+</div>
+
+<script src="js/modal.js"></script>
+<script src="js/catalog.js"></script>
+
+
+</body>
+</html>

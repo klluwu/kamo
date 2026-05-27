@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | K.AMO</title>
+    <link rel="stylesheet" href="styles/cart.css">
+</head>
+<body>
+
+<div class="top-line">COMPLIMENTARY STANDARD SHIPPING</div>
+
+<header class="header">
+        <nav class="header__left">
+            <a href="catalog.html">SPRING26</a>
+            <a href="#">ARCHIVE</a>
+            <a href="#">GIFTS</a>
+            <a href="#">STORES</a>
+        </nav>
+
+        <a href="index.html" class="logo">K.AMO</a>
+
+        <nav class="header__right">
+            <a href="#">SEARCH</a>
+            <a href="#">ABOUT</a>
+        </nav>
+    </header>
+
+
+<main class="cart-page">
+    <section class="cart-products">
+        <h1><span id="cartCount">0</span> PRODUCT:</h1>
+
+        <div class="cart-list" id="cartList"></div>
+
+        <h2 class="cart-total">TOTAL: <span id="cartTotal">0₽</span></h2>
+    </section>
+
+    <aside class="payment-box">
+        <p>Enter your payment information</p>
+
+        <input type="email" placeholder="Email">
+
+        <div class="payment-row">
+            <input type="text" placeholder="0000 0000 0000 0000">
+            <input type="text" placeholder="00/00">
+            <input type="text" placeholder="000">
+        </div>
+
+        <button>PROCEED TO PAYMENT</button>
+    </aside>
+</main>
+
+<footer class="footer">
+    <div class="footer-info container">
+        <div>
+            <h2>УЗНАЙТЕ БОЛЬШЕ В БУТИКАХ</h2>
+            <p>
+                Ассортимент изделий тщательно отобран в каждом из наших бутиков.
+                Приглашаем в ближайший к Вам бутик, чтобы узнать больше.
+            </p>
+            <a href="#">НАЙТИ БУТИК</a>
+        </div>
+
+        <img src="images/white-shop.png" alt="">
+    </div>
+
+    <div class="footer-bottom">
+        <div>
+            <h3>Связь с нами</h3>
+            <p>
+                Сотрудники K.AMO ответят на Ваши вопросы с понедельника
+                по пятницу, кроме нерабочих праздничных дней, с 10:00 до
+                18:00 по телефону 7 777 777 77 77
+            </p>
+        </div>
+
+        <div>
+            <h3>Найти бутик</h3>
+            <p>Укажите свое местоположение, чтобы найти ближайшие бутики K.AMO</p>
+
+            <label class="search-field">
+                <input type="text" placeholder="Город или почтовый индекс - обязательно">
+                <img src="images/loop.png" alt="">
+            </label>
+        </div>
+
+        <div>
+            <h3>Информационное письмо</h3>
+            <p>Подпишитесь, чтобы быть в курсе последних новостей K.AMO</p>
+            <a href="#">Подписаться</a>
+        </div>
+    </div>
+</footer>
+
+<section class="white-logo">
+    <a href="index.html" class="logo">K.AMO</a>
+</section>
+
+<script src="js/cart.js"></script>
+
+</body>
+</html>
